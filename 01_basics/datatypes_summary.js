@@ -40,3 +40,27 @@ console.log(typeof bigNumber);
 
 //type of val->null  -> object 
 //type of function   -> function object
+
+
+//memory stack(primitive) ,heap(non primitive)
+//copy milegi               //refrence me change
+
+let myYoutubename="hiteshchoudhary"
+
+
+let anothername=myYoutubename
+anothername="chai aur code";
+
+console.log(anothername);
+
+
+let userone={
+  email:"user@googlee.com"
+  upi: :user@ybl
+}
+
+let userTwo=userone; //refrence 
+
+userTwo.email="hitesh@goggle.com"
+console.log(userone.email);
+console.log(userTwo.email);
