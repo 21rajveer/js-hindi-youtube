@@ -48,3 +48,4 @@ const names=["rajveer","rakshit","kartik"]
 console.log(names.splice(0,1));
 //splice mtlbh index 0 se ek element remove
 //array.method hai
+
