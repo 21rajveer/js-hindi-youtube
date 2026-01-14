@@ -80,3 +80,43 @@ return `${name} no of benches are`
  }
  console.log(calculateBill(200));
  console.log(calculateBill());
+
+
+ //lecture 2
+
+ function calculateCartPrice(val1,val2, ...num1){
+//rest and spread opearator
+  return num1
+
+ }
+ console.log(calculateCartPrice(200,400,500,2000))
+
+ const user={
+  username:"rajveer",
+  price:199
+ }
+
+ function handleObject(anyObject){
+  console.log(`username is  ${anyObject.username} and price is 
+    ${anyObject.price}`);
+ }
+ handleObject(user);
+ handleObject({
+  username:"sam",
+  price:399
+ })
+
+ const myNewArra=[200,400,100,600]
+
+ function returnSecondValue(getArray){
+   return getArray[0]
+ }
+
+ //console.log(returnSecondValue(myNewArra))
+ console.log(returnSecondValue([200,400,500,1000]))
+
+ function getSecondElement(arr){
+  return arr[1]
+ }
+
+ console.log(getSecondElement([10,20,30]))
